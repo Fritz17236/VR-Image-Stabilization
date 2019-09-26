@@ -10,3 +10,5 @@ This image is then sent back through the VR interface and is finally displayed t
 While a proof-of-concept simulation is possible in its current form, this project is incomplete and is in need of optimization. In particular, it relies on disabling the HTC Vive direct-display mode to treat the VR set as a monitor and manually positioning a display window over the wearer's eyes. There is an OpenGL render-to-texture implemenation that can display images directly to the user using the OpenVR API, but is not yet fully working. (See testbed.py for more information). Furthermore, the image processor needs overhauling to increase the framerate to a reasonable level as well as calibration to the eye tracking data. 
 
 ![Overview](overview.png)
+
+For the diagram, the convention for arrows is that the text above an error describes the data being moved, and the text below describes the pipeline (i.e. how it's being moved).  In the main components, a smaller subbox connecting to an arrow denotes an interface, which here is a particualr piece of code that serves to talk between two different languages (here Pyhon, C++, and C#).
