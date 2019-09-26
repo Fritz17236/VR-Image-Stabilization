@@ -14,4 +14,4 @@ More detailed documentation and design comments will appear [here](https://docs.
 
 ![Overview](overview.png)
 
-For the diagram, the convention for arrows is that the text above an error describes the data being moved, and the text below describes the pipeline (i.e. how it's being moved).  In the main components, a smaller subbox connecting to an arrow denotes an interface, which here is a particualr piece of code that serves to talk between two different languages (here Pyhon, C++, and C#).
+For the diagram, the convention for arrows is that the text above an error describes the data being moved, and the text below describes the pipeline (i.e. how it's being moved).  In the main components, a smaller subbox connecting to an arrow denotes an interface, which here is a particular piece of code that serves to talk between two different languages (here Pyhon, C++, and C#).
